@@ -15,7 +15,7 @@ function nextSequence() {
     .fadeIn(100)
     .fadeOut(100)
     .fadeIn(100);
-  console.log(randomChosenColor);
+
   playSound(randomChosenColor);
 }
 
@@ -31,7 +31,7 @@ $(".btn").click(function () {
   playSound(userChosenColor);
   animatePress(userChosenColor);
   checkAnswer(index);
-  console.log(userCLickedPattern);
+
 });
 
 function animatePress(currentColor) {
