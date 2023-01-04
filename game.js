@@ -61,6 +61,7 @@ function checkAnswer(index) {
   } else {
     console.log("worng");
     $("body").addClass("game-over");
+    playSound("wrong");
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 200);
